@@ -10,6 +10,7 @@ The following `make` targets are availible
 |target|description
 |------|------|
 |**build**|build the docker image|
+|**build-nocache**|build the docker image without use of docker build caching|
 |**cdqr**|run cdqr against WinXP2.E01|
 |**git-push**|push this repo|
 |**hub-build**|schedule bulid on docker hub|
