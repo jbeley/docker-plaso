@@ -1,3 +1,8 @@
+# if make_env exists, include it
+ifneq ("$(wildcard make_env)", "")
+        include make_env
+endif
+
 NS ?= accenturecifr
 VERSION ?= latest
 
