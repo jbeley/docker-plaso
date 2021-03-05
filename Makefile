@@ -16,7 +16,7 @@ build: Dockerfile
 	docker build -t $(NS)/$(IMAGE_NAME):$(VERSION) -f Dockerfile .
 
 build-nocache: Dockerfile
-        docker build --no-cache -t $(NS)/$(IMAGE_NAME):$(VERSION) -f Dockerfile .
+	docker build --no-cache -t $(NS)/$(IMAGE_NAME):$(VERSION) -f Dockerfile .
 
 hub-build: Dockerfile
 	curl -H "Content-Type: application/json" --data '{"build": true}' -X POST ${hub_url}
