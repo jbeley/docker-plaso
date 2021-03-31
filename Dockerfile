@@ -37,5 +37,7 @@ RUN useradd plaso
 WORKDIR /home/plaso/
 ENV HOME /home/plaso
 
+RUN chown -R plaso /home/plaso/
+
 VOLUME ["/data"]
 USER plaso
