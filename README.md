@@ -11,7 +11,10 @@ The following `make` targets are availible
 |------|------|
 |**build**|build the docker image|
 |**build-nocache**|build the docker image without use of docker build caching|
-|**cdqr**|run cdqr against WinXP2.E01|
+|**cdqr**|run cdqr with "do all the things" plugin set against WinXP2.E01|
+|**cdqr-lin**|run cdqr with Linux specific plugin set against WinXP2.E01|
+|**cdqr-mac**|run cdqr with Mac specific plugin set against WinXP2.E01|
+|**cdqr-win**|run cdqr with Windows specific plugin set against WinXP2.E01|
 |**git-push**|push this repo|
 |**hub-build**|schedule bulid on docker hub|
 |**log2timeline**|run log2timeline against WinXP2.E01|
