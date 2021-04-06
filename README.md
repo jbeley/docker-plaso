@@ -2,12 +2,12 @@
 [![](https://images.microbadger.com/badges/version/jbeley/plaso.svg)](https://microbadger.com/images/jbeley/plaso "Get your own version badge on microbadger.com")
 
 # docker-plaso
-Docker container for plaso supertimlining tool
+Docker container for Plaso super-timelining tool
 
 ## Building
-The following `make` targets are availible
+The following `make` targets are available
 
-|target|description
+|Target|Description
 |------|------|
 |**build**|build the docker image|
 |**build-nocache**|build the docker image without use of docker build caching|
