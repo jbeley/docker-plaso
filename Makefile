@@ -1,5 +1,5 @@
 
-NS ?= accenturecifr
+NS ?= jbeley
 VERSION ?= latest
 
 IMAGE_NAME ?= plaso
