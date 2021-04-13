@@ -1,5 +1,5 @@
 FROM ubuntu:bionic
-MAINTAINER @accenturecifr
+MAINTAINER @jbeley
 
 ENV version 1.1.0
 ENV DEBIAN_FRONTEND noninteractive
